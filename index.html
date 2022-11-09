@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>
+            MY CLIPBOARD
+        </title>
+		<link rel="stylesheet" href="themes/dark.css">
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+    </head>
+	<body>
+		<h1>
+      		CLIPBOARD
+    	</h1>
+
+    <div class="save">
+		<h2>Create new clip</h2>
+		<form class="save">
+			<textarea id="set_clip" rows="8" cols="45" placeholder="Add Clip Content"></textarea>
+			<br/>
+			<input type="button" id="set" value="Save clip"/>
+        	<div id="set_msg"></div>
+    	</form>
+    </div>
+			<br/><br/><hr/><br/><br/>
+	<div class="get">
+		<h2>Retrive Saved clip</h2>
+		<form class="get">
+    		<input type="number" id="get_id" placeholder="Add Clip id">
+    		<input type="button" id="get" value="Get Clip">
+    		<textarea id="get_clip" rows="8" cols="45" readonly placeholder="Retrived Clip will appear here."></textarea>
+		</form>
+	</div>
+
+
+<script type="text/javascript" src="script.js"></script>
