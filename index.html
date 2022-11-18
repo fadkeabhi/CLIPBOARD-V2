@@ -31,9 +31,13 @@
 		<form class="get">
     		<input type="number" id="get_id" placeholder="Add Clip id">
     		<input type="button" id="get" value="Get Clip">
-    		<textarea id="get_clip" rows="8" cols="45" readonly placeholder="Retrived Clip will appear here."></textarea>
+				<input type="button" id="copttocb" onclick="copyToClipboard()" value="COPY">
+    			<textarea id="get_clip" rows="8" cols="45" readonly placeholder="Retrived Clip will appear here."></textarea>
+				<div id="get_msg"></div>
 		</form>
 	</div>
 
 
 <script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="copy.js"></script>
+
