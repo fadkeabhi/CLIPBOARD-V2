@@ -135,7 +135,7 @@ div.get {
     border: 2px solid rgb(83, 138, 255);
   }
   
-  #get {
+  #get,#copttocb {
     display: inline-block;
     position: relative;
     align-items:center;
@@ -150,6 +150,7 @@ div.get {
     cursor: pointer;
     margin-bottom: 20px;
   }
+
   #get:hover{
     background-color: white;
     color: black;
