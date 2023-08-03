@@ -23,7 +23,7 @@
 The simplest method for transmitting data across internet-connected devices
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-> Current preview is available [here](https://djclip.tk/).
+> Current preview is available [here](https://clip.djabrj.gq/).
 
 
 ## ⚙️Installation <a name = "installation"></a>
